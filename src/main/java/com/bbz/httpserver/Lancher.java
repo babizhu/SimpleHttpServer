@@ -9,6 +9,8 @@ import com.bbz.httpserver.server.HttpStaticFileServer;
 
 public class Lancher{
     public static void main( String[] args ) throws Exception{
+
+        System.out.println( "HOME目录：" + ServerCfg.HOME_DIR);
         new HttpStaticFileServer().run( );
     }
 }
